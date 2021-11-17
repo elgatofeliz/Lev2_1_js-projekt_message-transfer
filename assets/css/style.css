@@ -1,0 +1,20 @@
+body{
+    display: grid;
+    place-items: center;
+    height: 97vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: yellowgreen;
+    border: 5px solid #2e2e2e;
+    border-radius: 25px;
+    padding: 2vh 1vw;
+}
+
+#noMessage{
+    color: red;
+}
